@@ -24,7 +24,7 @@ else if (values[0]===values[1] || values[1]===values[2] || values[0]===values[2]
 else if(side1!==side2 && side1!==side3 && side2!==side1 && side2!==side3 && side3!==side2 && side3!==side1 && side1+side2>side3 || side2+side3>side1 || side3+side1> side2 )	{
 	alert("The triangle is scalene")
 }
-else{
+else {
 	alert("Please enter a numeric value")
 }
 
