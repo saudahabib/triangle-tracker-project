@@ -24,3 +24,6 @@ else if(side1!==side2 && side1!==side3 && side2!==side1 && side2!==side3 && side
 else{
 	alert("Please enter a numeric value")
 }
+
+}
+calculate();
