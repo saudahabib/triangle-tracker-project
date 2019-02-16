@@ -1,9 +1,31 @@
 .main{
   display:flex;
   flex-direction: column;
+  }
 
+#title{
+  background-color: black;
+  color:white;
+}
+
+.center, .right, .left{
+  display: flex;
+  flex-direction: column;
 
 }
-#title{
-  color:steelblue;
+
+.center{
+  text-align: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIm19gYaFLUu85EnwDa17kyEukjx9MGknbls5MBrT84NxlmT3uVA');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.8em;
+
+}
+
+input, button{
+  padding: 12px;
+  margin-left: 150px;
+  margin-right: 150px;
 }

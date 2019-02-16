@@ -12,7 +12,7 @@ var side3=parseInt(side3a);
 
 var values=[side1,side2,side3];
 if(values[0]===values[1] && values[1]===values[2] && values[2]===values[0])	{
- 	alert ("The triangle is equilateral");
+ 	document.getElementById('show').innerHTML= 'The triangle is equilateral <br> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKR-4u9PRtlGT3q6wugn10dzOFAowxTeu2waTzKfgwfeH1562eCA">'
  }
 else if (values[0]===values[1] || values[1]===values[2] || values[0]===values[2])	{
  	alert("The triangle is isoceles")
@@ -29,4 +29,3 @@ else {
 }
 
 }
-calculate();
