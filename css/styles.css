@@ -16,7 +16,7 @@
 
 .center{
   text-align: center;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIm19gYaFLUu85EnwDa17kyEukjx9MGknbls5MBrT84NxlmT3uVA');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1sDshyJB52aRETgXof7gBgc4ElCQ6pFwz28X9mH8StUDZ0V5hqw');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -26,6 +26,6 @@
 
 input, button{
   padding: 12px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
