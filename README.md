@@ -10,6 +10,10 @@ The website has three boxes in which the user enters numerical values. Upon subm
 * Click on the green 'clone or download' button to get this project on your PC
 
 ### Behavior Driven Dev {Specifications}
+| Behavior | Input    | Output |
+| :------------- | :------------- |:.................|
+| All values match   |  [12,12,12]       |  equilateral
+
 | Behavior                 |           Input      |                 Output|
 | :....................... |:....................:| ......................|              
 | All values match         |       [12,12,12]     |            equilateral|
@@ -27,7 +31,7 @@ The website has three boxes in which the user enters numerical values. Upon subm
  Please reach out to me with any questions at:
  * saudababs00@gmail.com or
  * 0714828944
- 
+
 ### Licensing
 MIT License
 

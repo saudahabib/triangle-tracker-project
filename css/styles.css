@@ -68,11 +68,13 @@ input, button{
 }
 /*styling for images ends here*/
 #conclude{
+  background-image: url("https://media1.tenor.com/images/bac8de6ed88be8d6d92ec273419db09f/tenor.gif?itemid=12904423");
   background-color: silver;
   padding: 20px;
   font-family: fantasy;
   text-align: center;
   font-size: 1.8em;
+  animation: marquee 5s;
 }
 body{
   font-family: Abel;
