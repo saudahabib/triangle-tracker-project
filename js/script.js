@@ -25,7 +25,7 @@ else if(side1!==side2 && side1!==side3 && side2!==side1 && side2!==side3 && side
 	document.getElementById('show').innerHTML='The triangle is scalene <br> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXUOrQnZKiso7SF_amW37JV4548WCDB8ah5GZdAhK2iJO6X2XRQ">'
 }
 else {
- document.getElementById('show').innerHTML='Please enter a numeric value <mg src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZDwLKpK4jt17Vprx6ONFMqpc3DlfOxVIIt_kSZm9ySPSoJBmb">'
+ document.getElementById('show').innerHTML='Please enter a numeric value <br> <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZDwLKpK4jt17Vprx6ONFMqpc3DlfOxVIIt_kSZm9ySPSoJBmb">'
 }
 
 }

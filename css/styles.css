@@ -3,9 +3,10 @@
   flex-direction: column;
   }
 
-#title{
-  background-color: black;
-  color:white;
+#title, #facts{
+color: #fe6666;
+text-align: center;
+
 }
 
 .center, .right, .left{
@@ -16,10 +17,10 @@
 
 .center{
   text-align: center;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1sDshyJB52aRETgXof7gBgc4ElCQ6pFwz28X9mH8StUDZ0V5hqw');
+  background-image: url('https://www.quickanddirtytips.com/sites/default/files/styles/article_main_image/public/images/6442/abstract-triangles.png?itok=Mur3-XJF');
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: black;
   font-size: 1.8em;
 
 }
@@ -29,3 +30,27 @@ input, button{
   margin-left: 250px;
   margin-right: 250px;
 }
+/*styling for images begins here*/
+.left{
+  display: flex;
+  flex-direction: row;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  padding:1.1em;
+
+}
+
+#sheldon, #calc, #history, #khan{
+  font-size: 2em;
+}
+#one:hover, #two:hover, #three:hover, #four:hover{
+  background-color: #fe6666;
+}
+
+.left a {
+  text-decoration: none;
+  color: black;
+}
+/*styling for images ends here*/
