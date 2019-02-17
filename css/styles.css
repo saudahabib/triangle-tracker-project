@@ -71,4 +71,6 @@ input, button{
   background-color: silver;
   padding: 20px;
   font-family: fantasy;
+  text-align: center;
+  font-size: 1.8em;
 }
