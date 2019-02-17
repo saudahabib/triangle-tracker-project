@@ -67,3 +67,8 @@ input, button{
   background-color: silver;
 }
 /*styling for images ends here*/
+#conclude{
+  background-color: silver;
+  padding: 20px;
+  font-family: fantasy;
+}
