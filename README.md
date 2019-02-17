@@ -10,12 +10,8 @@ The website has three boxes in which the user enters numerical values. Upon subm
 * Click on the green 'clone or download' button to get this project on your PC
 
 ### Behavior Driven Dev {Specifications}
-| Behavior | Input    | Output |
-| :------------- | :------------- |:.................|
-| All values match   |  [12,12,12]       |  equilateral
-
 | Behavior                 |           Input      |                 Output|
-| :....................... |:....................:| ......................|              
+| :----------------------- |:---------------------| :---------------------|              
 | All values match         |       [12,12,12]     |            equilateral|
 | Two values match         |       [12,12,11]     |           isoceles    |
 | No values match          |       [5,4,3]        |           scalene     |
