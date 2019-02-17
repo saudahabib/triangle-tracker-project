@@ -8,6 +8,10 @@ color: #fe6666;
 text-align: center;
 
 }
+#facts{
+  background-color: silver;
+  padding: 8px;
+}
 
 .center, .right, .left{
   display: flex;
@@ -44,6 +48,9 @@ input, button{
 
 #sheldon, #calc, #history, #khan{
   font-size: 2em;
+  background-color: steelblue;
+  border-radius:12px;
+  padding:8px;
 }
 #one:hover, #two:hover, #three:hover, #four:hover{
   background-color: #fe6666;
@@ -52,5 +59,11 @@ input, button{
 .left a {
   text-decoration: none;
   color: black;
+}
+#four{
+  margin-left: 39px;
+}
+.flex:hover #calc, .flex:hover #khan, .flex:hover #history, .flex:hover #sheldon{
+  background-color: silver;
 }
 /*styling for images ends here*/
