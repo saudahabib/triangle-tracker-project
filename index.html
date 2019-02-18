@@ -15,9 +15,13 @@
           Side 1:<br><input type="text" name="side1" id="first" width="25%"><br><br>
           Side 2:<br><input type="text" name="side2" id="second"><br><br>
           Side 3:<br><input type="text" name="side3" id="third"><br><br>
-          <button type="button" name="button" onclick="calculate()">Find Out</button>
+          <button type="button" name="button" onclick="calculate(); document.getElementById('show').style.display='block'">Find Out</button>
 
-          <p id="show"></p>
+            <p id="show"></p>
+            <br>
+          <button type="button" name="button" onclick="document.getElementById('first').value = ''; document.getElementById('second').value = ''; document.getElementById('third').value = ''; document.getElementById('show').style.display='none' ">Reset</button>
+
+
 
       </div>
       <h1 id="facts">More Fun With Triangles!!!</h1>

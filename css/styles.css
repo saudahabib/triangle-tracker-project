@@ -19,6 +19,7 @@
 
 }
 
+
 .center{
   text-align: center;
   background-image: url('https://www.quickanddirtytips.com/sites/default/files/styles/article_main_image/public/images/6442/abstract-triangles.png?itok=Mur3-XJF');
@@ -38,12 +39,13 @@ input, button{
 .left{
   display: flex;
   flex-direction: row;
+  overflow: auto;
+
 }
 .flex{
   display: flex;
   flex-direction: column;
   padding:1.1em;
-
 }
 
 #sheldon, #calc, #history, #khan{
