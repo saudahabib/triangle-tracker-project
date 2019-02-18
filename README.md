@@ -5,6 +5,9 @@
 ### Description
 The website has three boxes in which the user enters numerical values. Upon submitting, the webpage determines what type of triangle the value makes up, if a triangle at all. It also provides a platform for people interested in performing other calculations to work from. The user can access educational videos on geometrical shapes other than triangles too.
 
+### Project Live site
+
+https://saudahabib.github.io/triangle-tracker-project
 ### Set up Instructions
 * On the top right corner of your screen, click the 'fork' button to fork my work.
 * Click on the green 'clone or download' button to get this project on your PC

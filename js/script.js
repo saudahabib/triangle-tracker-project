@@ -11,7 +11,7 @@ var side3=parseInt(side3a);
 //This is my business logic//
 
 var values=[side1,side2,side3];
-if (side1<=0|| side2<=0||side3<=0) {
+if (side1<=0|| side2<=0||side3<=0||) {
   document.getElementById('show').innerHTML='These values do not make a triangle <br> <img src="https://media.tenor.com/images/020e1899e91ed2742fd0491927d90401/tenor.gif">'
 }
 else if(values[0]===values[1] && values[1]===values[2] && values[2]===values[0])	{
